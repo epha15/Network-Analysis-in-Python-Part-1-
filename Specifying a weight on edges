@@ -1,3 +1,5 @@
+# to call all edge: use T.edges(data=True).
+# to call specific u,v edge use T.edge[1][10]. Notice all use edge"s" while single edge are not plural (no "s"
 # Set the weight of the edge
 T.edge[1][10]['weight'] = 2
 
