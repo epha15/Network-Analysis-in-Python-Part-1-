@@ -1,0 +1,7 @@
+#List comprehension is a concise way to create list using for loop inside the list
+
+# Compute the degree of every node: degrees
+degrees = [len(T.neighbors(n)) for n in T.nodes()]
+
+# Print the degrees
+print(degrees)
