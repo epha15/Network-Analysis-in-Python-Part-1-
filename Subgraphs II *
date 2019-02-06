@@ -1,4 +1,5 @@
 #Network analysis maybe can be used of the overlapping holding
+#nodes here is a list while noteset is a set
 
 # Extract the nodes of interest: nodes
 nodes = [n for n, d in T.nodes(data=True) if d['occupation'] == 'celebrity']
@@ -7,7 +8,7 @@ nodes = [n for n, d in T.nodes(data=True) if d['occupation'] == 'celebrity']
 nodeset = set(nodes)
 
 # Iterate over nodes
-for n in T.nodes():
+for n in nodes:
 
     # Compute the neighbors of n: nbrs
     nbrs = T.neighbors(n)
