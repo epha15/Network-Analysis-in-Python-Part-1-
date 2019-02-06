@@ -1,0 +1,5 @@
+In [1]: len(G.nodes())
+Out[1]: 56519
+
+In [2]: len(G.edges())
+Out[2]: 72900
